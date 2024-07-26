@@ -1,0 +1,7 @@
+type Query {    
+	studentById(id:ID!):Student 
+}  type Student {    \n\tid:ID!    
+	firstName:String    
+	lastName:String    
+	collegeId:String 
+}
